@@ -172,3 +172,12 @@ h3 {
   border-radius: 5rem;
   margin-left: 20rem;
 }
+
+/* Responsive */
+
+@media (max-width: 1366px) {
+  .spaces {
+    margin-left: -10rem;
+    margin-right: -10rem;
+  }
+}
