@@ -1,0 +1,174 @@
+/* Fonts From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/*Color Palette*/
+:root {
+  --primary: #9c27B0;
+  --primaryD: #89119d;
+  --secondary: #ffce00;
+  --secondaryD: rgb(233,187,2);
+  --white: #fff;
+  --black: #000;
+  --grey: #757575;
+  --PrincipalF: 'Staatliches'
+}
+
+/* Principal */
+.main {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.img {
+  border-radius: 5rem !important;
+  max-width: 100% !important;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 1.8rem !important;
+  text-align: center !important;
+}
+
+.content {
+  font-size: 1.3rem;
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Header */
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Navigation */
+.navigation {
+  background-color: var(--primaryD);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar-container {
+  font-family: var(--PrincipalF);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-route{
+  color: var(--white) !important;
+  font-size: 3rem;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.navigation .active,
+.nav-route:hover {
+  color: var(--secondary) !important;
+}
+
+.text-nav {
+  color: var(--secondary);
+  font-family: var(--PrincipalF);
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Row */
+.spaces {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+/* Card Design */
+
+.text {
+  background-color: var(--primaryD);
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+  font-family: var(--PrincipalF);
+  margin-top: 2rem;
+  margin-bottom: 2rem ;
+  max-width: 100%;
+}
+
+.text-name {
+  font-size: 3rem;
+}
+
+.text-price {
+  font-size: 2rem;
+  color: var(--secondary);
+}
+
+.card-img {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* About */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+/* Product Detail */
+.form_field{
+  appearance: none ;
+  border-color: var(--primaryD);
+  border-style: solid;
+  border: 1rem solid var(--primaryD);
+  background-color: transparent;
+  color: var(--black);
+  font-family:Arial, Helvetica, sans-serif; /*Cambiale a cualquier estilo o color*/
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 30%;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.submit{
+  background-color: var(--secondary);
+  border: none;
+  font-family: var(--PrincipalF);
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 90%;
+  padding: 1rem;
+  transition: background-color .2s ease;
+  transition: font-size ease;
+}
+
+.submit:hover{
+  cursor: pointer;
+  font-size: 2rem ;
+  background-color: var(--secondaryD);
+}
+
+/* Details */
+.detail {
+  border-radius: 5rem;
+  margin-left: 20rem;
+}
